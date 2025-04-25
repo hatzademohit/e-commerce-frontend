@@ -1,0 +1,82 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Mohit Hatzade",
+        "email": "mohit.hatzade@valethi.com",
+        "userName": "mohit.hatzade@valethi.com",
+        "password": 123456,
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Navin Narnaware",
+        "email": "navin.narnaware@valethi.com",
+        "userName": "navin.narnaware@valethi.com",
+        "password": 123456,
+        "role": "admin"
+      },
+      {
+        "id": 3,
+        "name": "Madhukar Kakade",
+        "email": "madhukar.kakade@valethi.com",
+        "userName": "madhukar.kakade@valethi.com",
+        "password": 123456,
+        "role": "admin"
+      },
+      {
+        "id": 4,
+        "name": "Amit Chintkutlawar",
+        "email": "amit.chintkutlawar@valethi.com",
+        "userName": "amit.chintkutlawar@valethi.com",
+        "password": 123456,
+        "role": "admin"
+      }
+    ],
+
+    "sliders": [
+        {
+            "id": 1,
+            "img": "./item1.jpg",
+            "imgName": "Image Name",
+            "imgDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro voluptatum saepe vel consectetur quia distinctio?"
+        },
+        {
+            "id": 2,
+            "img": "item2.jpg",
+            "imgName": "Image Name",
+            "imgDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro voluptatum saepe vel consectetur quia distinctio?"
+        },
+        {
+            "id": 3,
+            "img": "item3.jpg",
+            "imgName": "Image Name",
+            "imgDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro voluptatum saepe vel consectetur quia distinctio?"
+        },
+        {
+            "id": 4,
+            "img": "item4.jpg",
+            "imgName": "Image Name",
+            "imgDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro voluptatum saepe vel consectetur quia distinctio?"
+        },
+        {
+            "id": 5,
+            "img": "item5.jpg",
+            "imgName": "Image Name",
+            "imgDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro voluptatum saepe vel consectetur quia distinctio?"
+        },
+        {
+            "id": 6,
+            "img": "item6.jpg",
+            "imgName": "Image Name",
+            "imgDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro voluptatum saepe vel consectetur quia distinctio?"
+        },
+        {
+            "id": 7,
+            "img": "item7.jpg",
+            "imgName": "Image Name",
+            "imgDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro voluptatum saepe vel consectetur quia distinctio?"
+        }
+    ]
+  }
+  

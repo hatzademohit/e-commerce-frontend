@@ -1,7 +1,8 @@
-import { Box, Typography, IconButton } from "@mui/material";
+import { Box, Typography, IconButton, Container } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
+import Image from "next/image";
 
 // Custom Previous Button
 const PrevArrow = (props: any) => {
@@ -45,12 +46,11 @@ const NextArrow = (props: any) => {
   );
 };
 
-export default function SlickSlider() {
-const [slideImage, setSlideImage] = useState<any>([])
-useEffect(()=>{
-  setSlideImage(['Image1', 'Image 2', 'Image 3', 'Image 4'])
-}, [])
-// Blob {size: SIZE, type: 'image/png'}
+export interface SlickSliderProps{
+  sliderData?: [];
+}
+
+const SlickSlider:React.FC<SlickSliderProps> = ({sliderData}) => {
 
   const settings = {
     dots: true,
@@ -63,25 +63,33 @@ useEffect(()=>{
   };
 
   return (
-    <Box sx={{ position: "relative", '& .slick-list':{maxWidth: 'calc(100% - 90px)', margin: 'auto'} }} >
-      <Slider {...settings}>
-        {slideImage && slideImage.map((item:any, index:any) => (
-          <Box
-            key={index}
-            sx={{
-              textAlign: "center",
-              padding: 2,
-              backgroundColor: "#f5f5f5",
-              borderRadius: 2,
-              margin: 1,
-            }}
-          >
-            <Typography component="h3" variant="h3">
-              {item}
-            </Typography>
-          </Box>
-        ))}
-      </Slider>
-    </Box>
+    <Container maxWidth="xl">
+      <Box sx={{ position: "relative", '& .slick-list':{maxWidth: 'calc(100% - 90px)', margin: 'auto', mt: '20px'} }} >
+        <Slider {...settings}>
+          {sliderData && sliderData.map((item:any, index:any) => (
+            <Box
+              key={index}
+              sx={{
+                textAlign: "center",
+                padding: 2,
+                backgroundColor: "#f5f5f5",
+                borderRadius: 2,
+                margin: 1,
+              }}
+            >
+              <Image src={'/imgs/' + item.img} alt="img not found" width={300} height={200} />
+              <Typography component="h4" variant="h4">
+                {item.imgName}
+              </Typography>
+              <Typography>
+                {item.imgDesc}
+              </Typography>
+            </Box>
+          ))}
+        </Slider>
+      </Box>
+    </Container>
   );
 }
+
+export default SlickSlider;

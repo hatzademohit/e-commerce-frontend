@@ -23,9 +23,30 @@ export const projectTheme = createTheme({
     },
     
     typography: {
-        fontFamily: 'kyn',
+        fontFamily: 'kyn-lt',
         h1: {
+            fontSize: 32,
+            fontFamily: 'kyn-md'
+        },
+        h2: {
+            fontSize: 28,
+            fontFamily: 'kyn-md'
+        },
+        h3: {
+            fontSize: 24,
+            fontFamily: 'kyn-md'
+        },
+        h4: {
             fontSize: 20,
+            fontFamily: 'kyn-md'
+        },
+        h5: {
+            fontSize: 16,
+            fontFamily: 'kyn-md'
+        },
+        h6: {
+            fontSize: 14,
+            fontFamily: 'kyn-md'
         },
     },
     components:{

@@ -1,10 +1,12 @@
-import { Box, Container, CssBaseline, ThemeProvider } from "@mui/material";
+import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import type { Metadata } from "next";
 import { projectTheme } from "./theme";
 import "../public/fonts.css";
+import "../public/style.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "E Commerce Frontend",
@@ -21,10 +23,9 @@ export default function RootLayout({
       <body>
         <ThemeProvider theme={projectTheme}>
           <CssBaseline />
-          <Header />
-          <Box>
-            <Container maxWidth="xl">{children}</Container>
-          </Box>
+          {/* <Header /> */}
+            {children}
+          {/* <Footer /> */}
         </ThemeProvider>
       </body>
     </html>

@@ -1,147 +1,20 @@
-/* NORMAL */
 @font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-Regular.eot');
-  src: url('../public/fonts/eot/Kyn-Regular.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-Regular.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+  font-family: "kyn";
+  src: url("../public/fonts/Kyn-Regular.ttf");
 }
-
-/* NORMAL ITALIC */
 @font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-RegularItalic.eot');
-  src: url('../public/fonts/eot/Kyn-RegularItalic.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-RegularItalic.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-RegularItalic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: italic;
+  font-family: "kyn-lt";
+  src: url("../public/fonts/Kyn-Light.ttf");
 }
-
-/* THIN */
 @font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-Thin.eot');
-  src: url('../public/fonts/eot/Kyn-Thin.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-Thin.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-Thin.woff2') format('woff2');
-  font-weight: 100;
-  font-style: normal;
+  font-family: "kyn-bold";
+  src: url("../public/fonts/Kyn-Bold.ttf");
 }
-/* THIN ITALIC */
 @font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-ThinItalic.eot');
-  src: url('../public/fonts/eot/Kyn-ThinItalic.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-ThinItalic.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-ThinItalic.woff2') format('woff2');
-  font-weight: 100;
-  font-style: italic;
+  font-family: "kyn-md";
+  src: url("../public/fonts/Kyn-Medium.ttf");
 }
-
-/* LIGHT */
 @font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-Light.eot');
-  src: url('../public/fonts/eot/Kyn-Light.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-Light.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-Light.woff2') format('woff2');
-  font-weight: 200;
-  font-style: normal;
-}
-/* LIGHT ITALIC */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-LightItalic.eot');
-  src: url('../public/fonts/eot/Kyn-LightItalic.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-LightItalic.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-LightItalic.woff2') format('woff2');
-  font-weight: 200;
-  font-style: italic;
-}
-
-/* MEDIUM */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-Medium.eot');
-  src: url('../public/fonts/eot/Kyn-Medium.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-Medium.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-}
-/* MEDIUM ITALIC */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-MediumItalic.eot');
-  src: url('../public/fonts/eot/Kyn-MediumItalic.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-MediumItalic.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-MediumItalic.woff2') format('woff2');
-  font-weight: 500;
-  font-style: italic;
-}
-
-/* SEMIBOLD */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-SemiBold.eot');
-  src: url('../public/fonts/eot/Kyn-SemiBold.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-SemiBold.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-}
-/* SEMIBOLD ITALIC */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-SemiBoldItalic.eot');
-  src: url('../public/fonts/eot/Kyn-SemiBoldItalic.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-SemiBoldItalic.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-SemiBoldItalic.woff2') format('woff2');
-  font-weight: 600;
-  font-style: italic;
-}
-
-/* BOLD */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-Bold.eot');
-  src: url('../public/fonts/eot/Kyn-Bold.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-Bold.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-/* BOLD ITALIC */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-BoldItalic.eot');
-  src: url('../public/fonts/eot/Kyn-BoldItalic.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-BoldItalic.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-BoldItalic.woff2') format('woff2');
-  font-weight: bold;
-  font-style: italic;
-}
-
-/* EXTRABOLD */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-ExtraBold.eot');
-  src: url('../public/fonts/eot/Kyn-ExtraBold.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-ExtraBold.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-ExtraBold.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-}
-/* EXTRABOLD ITALIC */
-@font-face {
-  font-family: 'Kyn';
-  src: url('../public/fonts/eot/Kyn-ExtraBoldItalic.eot');
-  src: url('../public/fonts/eot/Kyn-ExtraBoldItalic.eot') format('embedded-opentype'),
-    url('../public/fonts/woff/Kyn-ExtraBoldItalic.woff') format('woff2'),
-    url('../public/fonts/woff2/Kyn-ExtraBoldItalic.woff2') format('woff2');
-  font-weight: 900;
-  font-style: italic;
+  font-family: "kyn-semibold";
+  src: url("../public/fonts/Kyn-SemiBold.ttf");
 }
